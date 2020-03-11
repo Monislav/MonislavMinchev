@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image.webp);
+    background-size: 100vw 80vh;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+}
+ul a:hover{
+    color: red;
+}
+.home{
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    transform: rotate(5deg);
+}
+.home a{
+    color: red;
+}
+.home a:hover{
+    color: blue;
+}
+.gmail{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    transform: rotate(-10deg);
+    text-shadow: 5px 5px 2px grey;
+}
+.face{
+    position: absolute;
+    left: 220px;
+    top: 290px;
+    transform: rotate(30deg);
+    text-shadow: 5px 5px 2px grey;
+}
+.linkl{
+    position: absolute;
+    left: 120px;
+    top: 350px;
+    transform: rotate(40deg);
+    text-shadow: 5px 5px 2px grey;
+}
+.abv{
+    position: absolute;
+    right: 100px;
+    bottom: 290px;
+    text-shadow: 5px 5px 2px grey;
+}
+
+.instagram{
+    position: absolute;
+    right: 80px;
+    bottom: 240px;
+    text-shadow: 5px 5px 2px grey;
+}
+.mail{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    top: 60%;
+    left: 50%;
+    transform: rotate(20deg);
+}
+
+.facebook{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: 40%;
+    left: 35%;
+    transform: rotate(-20deg);
+}
+.link{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: 35%;
+    left: 60%;
+    transform: rotate(30deg);
+}
+.abvbg{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: 70%;
+    left: 75%;
+    transform: rotate(-20deg);
+}
+.insta{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 70%;
+    left: 31%;
+    transform: rotate(-20deg);
+}
+img{
+    box-shadow: 2px 2px 2px grey;
+}
